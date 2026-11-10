@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://scripted-code.pages.dev';
+const DOMAIN = 'https://scripted-code.pageaura.xyz';
 const KEY = 'b1ac777bc14c4b6ab0caca5ed4cf6634';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'scripted-code.pages.dev' ||
+    url.hostname.toLowerCase() !== 'scripted-code.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
