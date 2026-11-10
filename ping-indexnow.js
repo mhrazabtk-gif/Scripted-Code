@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'scripted-code.pages.dev';
+const HOST = 'scripted-code.pageaura.xyz';
 const KEY = 'b1ac777bc14c4b6ab0caca5ed4cf6634';
-const KEY_LOCATION = `https://scripted-code.pages.dev/b1ac777bc14c4b6ab0caca5ed4cf6634.txt`;
+const KEY_LOCATION = `https://scripted-code.pageaura.xyz/b1ac777bc14c4b6ab0caca5ed4cf6634.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
